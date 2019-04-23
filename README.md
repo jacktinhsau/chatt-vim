@@ -18,5 +18,10 @@ git clone https://github.com/jacktinhsau/chatt-vim/ ~/.config/nvim
 ```
 - Install plugins:
 ```
-vim +PlugInstall +qall
+nvim +PlugInstall +qall
+```
+- Update Neovim as default `vi/vim`
+```
+sudo update-alternatives --config vi
+sudo update-alternatives --config vim
 ```
