@@ -1,6 +1,6 @@
 syntax on
 
-call plug#begin('~/.nvim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'scrooloose/nerdtree'  " file list
 Plug 'majutsushi/tagbar'  " show tags in a bar (functions etc) for easy browsing
