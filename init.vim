@@ -269,3 +269,6 @@ let g:gitgutter_map_keys = 0
 " ctrl p options
 let g:ctrlp_custom_ignore = '\v\.(npy|jpg|pyc|so|dll)$'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+
+" Fix Esc delay in tmux sessions
+set timeoutlen=1000 ttimeoutlen=0
