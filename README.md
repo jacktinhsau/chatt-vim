@@ -14,7 +14,7 @@ mv .config/nvim .config/nvim.bak
 ```
 - Clone this project:
 ```
-git clone https://github.com/jacktinhsau/chatt-vim/ ~/.config/nvim
+git clone https://github.com/jacktinhsau/panthera-vim/ ~/.config/nvim
 ```
 - Install plugins:
 ```
